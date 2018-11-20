@@ -1,6 +1,7 @@
 public class Test {
     public static void main (String[] arg){
-        int[] arr = {58,61,37,91};
+        int[] arr = new int[]{58,61,37,91};
+        String[] names = {"apple","bob", "cat"};
         Sorts.printArr(arr);
         System.out.println();
 
